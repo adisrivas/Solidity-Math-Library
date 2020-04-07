@@ -1,11 +1,12 @@
 # Solidity-Math-Library
 <br>
 Math Library for Solidity programming language.
+<br>
 
 ## Functions implemented-
 <br>
  
- * ADDITION
+* ADDITION
 
   ```
   
@@ -22,56 +23,56 @@ Math Library for Solidity programming language.
   ```
 
 * MULTIPLICATION
+ 
+  ```
 
-```
+  function multiply(int128 a, int128 b) internal pure returns(int128)
 
-function multiply(int128 a, int128 b) internal pure returns(int128)
-
-```
+  ```
 * DIVISION
 
-```
+  ```
 
-function divide(int128 a, int128 b) internal pure returns(int128)
+  function divide(int128 a, int128 b) internal pure returns(int128)
 
-```
+  ```
 
 * POWER
 
-```
+  ```
 
-function pow(int128 a, int128 b) internal pure returns(int128)
+  function pow(int128 a, int128 b) internal pure returns(int128)
 
-```
+  ```
 
 * INCREMENT
 
-```
+  ```
 
-function increment(int128 a) internal pure returns(int128)
+  function increment(int128 a) internal pure returns(int128)
 
-```
+  ```
 
 * DECREMENT
 
-```
+  ```
 
-function decrement(int128 a) internal pure returns(int128)
+  function decrement(int128 a) internal pure returns(int128)
 
-```
+  ```
 
 * ABSOLUTE
 
-```
+  ```
 
-function abs(int a) internal pure returns(uint)
+  function abs(int a) internal pure returns(uint)
 
-```
+  ```
 
 * SQUARE ROOT
 
-```
+  ```
 
-function sqrt(uint256 a) internal pure returns(uint256)
+  function sqrt(uint256 a) internal pure returns(uint256)
 
-```
+  ```
